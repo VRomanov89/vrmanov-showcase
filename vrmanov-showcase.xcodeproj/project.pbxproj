@@ -13,6 +13,11 @@
 		6301E0CF1C2878E90062F23E /* vrmanov_showcase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6301E0CD1C2878E90062F23E /* vrmanov_showcase.xcdatamodeld */; };
 		6301E0D11C2878E90062F23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6301E0D01C2878E90062F23E /* Assets.xcassets */; };
 		6301E0D41C2878E90062F23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6301E0D21C2878E90062F23E /* LaunchScreen.storyboard */; };
+		6301E0E31C2879320062F23E /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6301E0DF1C2879320062F23E /* NotoSans-Bold.ttf */; };
+		6301E0E41C2879320062F23E /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6301E0E01C2879320062F23E /* NotoSans-BoldItalic.ttf */; };
+		6301E0E51C2879320062F23E /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6301E0E11C2879320062F23E /* NotoSans-Italic.ttf */; };
+		6301E0E61C2879320062F23E /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6301E0E21C2879320062F23E /* NotoSans-Regular.ttf */; };
+		6301E0EA1C28850C0062F23E /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301E0E91C28850C0062F23E /* MaterialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		6301E0D01C2878E90062F23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6301E0D31C2878E90062F23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6301E0D51C2878E90062F23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6301E0DF1C2879320062F23E /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		6301E0E01C2879320062F23E /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6301E0E11C2879320062F23E /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		6301E0E21C2879320062F23E /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		6301E0E91C28850C0062F23E /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,10 @@
 		6301E0C51C2878E90062F23E /* vrmanov-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				6301E0DE1C28790A0062F23E /* Resources */,
+				6301E0DD1C2879030062F23E /* Model */,
+				6301E0DC1C2878FD0062F23E /* View */,
+				6301E0DB1C2878F60062F23E /* Controller */,
 				6301E0C61C2878E90062F23E /* AppDelegate.swift */,
 				6301E0C81C2878E90062F23E /* ViewController.swift */,
 				6301E0CA1C2878E90062F23E /* Main.storyboard */,
@@ -65,6 +79,39 @@
 				6301E0CD1C2878E90062F23E /* vrmanov_showcase.xcdatamodeld */,
 			);
 			path = "vrmanov-showcase";
+			sourceTree = "<group>";
+		};
+		6301E0DB1C2878F60062F23E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6301E0DC1C2878FD0062F23E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6301E0E91C28850C0062F23E /* MaterialView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6301E0DD1C2879030062F23E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6301E0DE1C28790A0062F23E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6301E0DF1C2879320062F23E /* NotoSans-Bold.ttf */,
+				6301E0E01C2879320062F23E /* NotoSans-BoldItalic.ttf */,
+				6301E0E11C2879320062F23E /* NotoSans-Italic.ttf */,
+				6301E0E21C2879320062F23E /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +173,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6301E0E31C2879320062F23E /* NotoSans-Bold.ttf in Resources */,
 				6301E0D41C2878E90062F23E /* LaunchScreen.storyboard in Resources */,
+				6301E0E41C2879320062F23E /* NotoSans-BoldItalic.ttf in Resources */,
+				6301E0E51C2879320062F23E /* NotoSans-Italic.ttf in Resources */,
 				6301E0D11C2878E90062F23E /* Assets.xcassets in Resources */,
 				6301E0CC1C2878E90062F23E /* Main.storyboard in Resources */,
+				6301E0E61C2879320062F23E /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +193,7 @@
 				6301E0C91C2878E90062F23E /* ViewController.swift in Sources */,
 				6301E0C71C2878E90062F23E /* AppDelegate.swift in Sources */,
 				6301E0CF1C2878E90062F23E /* vrmanov_showcase.xcdatamodeld in Sources */,
+				6301E0EA1C28850C0062F23E /* MaterialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
