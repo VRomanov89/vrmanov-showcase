@@ -21,6 +21,10 @@
 		6301E0ED1C2885F60062F23E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301E0EC1C2885F60062F23E /* File.swift */; };
 		6301E0EF1C2889490062F23E /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301E0EE1C2889490062F23E /* MaterialButton.swift */; };
 		6301E0F11C2894430062F23E /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301E0F01C2894430062F23E /* MaterialTextField.swift */; };
+		6301E0F61C2898CC0062F23E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6301E0F31C2898CC0062F23E /* Bolts.framework */; };
+		6301E0F71C2898CC0062F23E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6301E0F41C2898CC0062F23E /* FBSDKCoreKit.framework */; };
+		6301E0F81C2898CC0062F23E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6301E0F51C2898CC0062F23E /* FBSDKLoginKit.framework */; };
+		AA23B5B030E746C06E96A4A0 /* Pods_vrmanov_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F700448BF3AB9104CD1F5EEB /* Pods_vrmanov_showcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,12 @@
 		6301E0EC1C2885F60062F23E /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		6301E0EE1C2889490062F23E /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		6301E0F01C2894430062F23E /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		6301E0F31C2898CC0062F23E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		6301E0F41C2898CC0062F23E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		6301E0F51C2898CC0062F23E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		B96904CA7988A7883B537FAE /* Pods-vrmanov-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vrmanov-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-vrmanov-showcase/Pods-vrmanov-showcase.release.xcconfig"; sourceTree = "<group>"; };
+		D5A3E9E5F25B4D119D7D68FC /* Pods-vrmanov-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vrmanov-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vrmanov-showcase/Pods-vrmanov-showcase.debug.xcconfig"; sourceTree = "<group>"; };
+		F700448BF3AB9104CD1F5EEB /* Pods_vrmanov_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vrmanov_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6301E0F61C2898CC0062F23E /* Bolts.framework in Frameworks */,
+				6301E0F71C2898CC0062F23E /* FBSDKCoreKit.framework in Frameworks */,
+				6301E0F81C2898CC0062F23E /* FBSDKLoginKit.framework in Frameworks */,
+				AA23B5B030E746C06E96A4A0 /* Pods_vrmanov_showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +72,8 @@
 			children = (
 				6301E0C51C2878E90062F23E /* vrmanov-showcase */,
 				6301E0C41C2878E90062F23E /* Products */,
+				88647980D138C20A31D0EF41 /* Pods */,
+				8D3A9DA6FEA1A2E25EF94291 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +88,7 @@
 		6301E0C51C2878E90062F23E /* vrmanov-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				6301E0F21C2898BA0062F23E /* Frameworks */,
 				6301E0EB1C2885EA0062F23E /* Utils */,
 				6301E0DE1C28790A0062F23E /* Resources */,
 				6301E0DD1C2879030062F23E /* Model */,
@@ -131,6 +148,33 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		6301E0F21C2898BA0062F23E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6301E0F31C2898CC0062F23E /* Bolts.framework */,
+				6301E0F41C2898CC0062F23E /* FBSDKCoreKit.framework */,
+				6301E0F51C2898CC0062F23E /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88647980D138C20A31D0EF41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5A3E9E5F25B4D119D7D68FC /* Pods-vrmanov-showcase.debug.xcconfig */,
+				B96904CA7988A7883B537FAE /* Pods-vrmanov-showcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D3A9DA6FEA1A2E25EF94291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F700448BF3AB9104CD1F5EEB /* Pods_vrmanov_showcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6301E0D81C2878E90062F23E /* Build configuration list for PBXNativeTarget "vrmanov-showcase" */;
 			buildPhases = (
+				9324F7967E8870C5E0618382 /* Check Pods Manifest.lock */,
 				6301E0BF1C2878E90062F23E /* Sources */,
 				6301E0C01C2878E90062F23E /* Frameworks */,
 				6301E0C11C2878E90062F23E /* Resources */,
+				DEBFEB90DF8FDD5C07D39F0D /* Embed Pods Frameworks */,
+				E5AA3D54FB44CAC8F4B94CB4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +248,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9324F7967E8870C5E0618382 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBFEB90DF8FDD5C07D39F0D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vrmanov-showcase/Pods-vrmanov-showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5AA3D54FB44CAC8F4B94CB4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vrmanov-showcase/Pods-vrmanov-showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6301E0BF1C2878E90062F23E /* Sources */ = {
@@ -324,8 +419,13 @@
 		};
 		6301E0D91C2878E90062F23E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A3E9E5F25B4D119D7D68FC /* Pods-vrmanov-showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vrmanov-showcase",
+				);
 				INFOPLIST_FILE = "vrmanov-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eeenthusiast.vrmanov-showcase";
@@ -335,8 +435,13 @@
 		};
 		6301E0DA1C2878E90062F23E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96904CA7988A7883B537FAE /* Pods-vrmanov-showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/vrmanov-showcase",
+				);
 				INFOPLIST_FILE = "vrmanov-showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eeenthusiast.vrmanov-showcase";
@@ -363,6 +468,7 @@
 				6301E0DA1C2878E90062F23E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
