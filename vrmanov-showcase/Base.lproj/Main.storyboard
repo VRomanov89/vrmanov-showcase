@@ -9,6 +9,12 @@
         <mutableArray key="NotoSans-Bold.ttf">
             <string>NotoSans-Bold</string>
             <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
+        </mutableArray>
+        <mutableArray key="NotoSans-Regular.ttf">
+            <string>NotoSans</string>
+            <string>NotoSans</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -20,15 +26,15 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="MaterialView" customModule="vrmanov_showcase" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYS-sU-ZoI">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Sign In / Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCn-wR-7e8">
-                                        <rect key="frame" x="20" y="21" width="152" height="33"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In / Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCn-wR-7e8">
+                                        <rect key="frame" x="20" y="20" width="152" height="33"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="152" id="IEm-k0-BNM"/>
                                             <constraint firstAttribute="height" constant="33" id="tMp-rP-dh9"/>
@@ -40,12 +46,13 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.40392156862745099" green="0.22745098039215686" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="bCn-wR-7e8" firstAttribute="top" secondItem="oYS-sU-ZoI" secondAttribute="top" constant="20" id="PN9-PQ-wZm"/>
                                     <constraint firstAttribute="height" constant="120" id="h8E-wd-u03"/>
                                     <constraint firstItem="bCn-wR-7e8" firstAttribute="leading" secondItem="oYS-sU-ZoI" secondAttribute="leading" constant="20" id="hDe-Io-P6H"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gkK-lM-ccs">
-                                <rect key="frame" x="20" y="63" width="560" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkK-lM-ccs" customClass="MaterialView" customModule="vrmanov_showcase" customModuleProvider="target">
+                                <rect key="frame" x="20" y="70" width="560" height="128"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ll4-wd-Cy1">
                                         <rect key="frame" x="10" y="10" width="540" height="108"/>
@@ -57,7 +64,7 @@
                                                     <constraint firstAttribute="width" constant="100" id="b1Q-wM-M30"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzA-VG-Ftc" customClass="MaterialButton" customModule="vrmanov_showcase" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzA-VG-Ftc" customClass="MaterialButton" customModule="vrmanov_showcase" customModuleProvider="target">
                                                 <rect key="frame" x="110" y="38" width="430" height="33"/>
                                                 <color key="backgroundColor" red="0.11764705882352941" green="0.53333333333333333" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
@@ -77,14 +84,82 @@
                                     <constraint firstAttribute="bottom" secondItem="Ll4-wd-Cy1" secondAttribute="bottom" constant="10" id="yZH-t1-1Jc"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="krW-Zc-3IN" customClass="MaterialView" customModule="vrmanov_showcase" customModuleProvider="target">
+                                <rect key="frame" x="20" y="218" width="560" height="362"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Log In / Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7p-A8-nkx">
+                                        <rect key="frame" x="20" y="20" width="200" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="R0w-n1-xWI"/>
+                                            <constraint firstAttribute="width" constant="200" id="hJV-6X-iea"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DL8-qR-WLg" customClass="MaterialTextField" customModule="vrmanov_showcase" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="73" width="520" height="35"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.93725490199999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="x3a-XP-tyU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8bL-Ki-tJO" customClass="MaterialTextField" customModule="vrmanov_showcase" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="128" width="520" height="35"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.93725490199999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="DjH-mQ-5Sd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8E-6o-7DF" customClass="MaterialButton" customModule="vrmanov_showcase" customModuleProvider="target">
+                                        <rect key="frame" x="153" y="213" width="254" height="33"/>
+                                        <color key="backgroundColor" red="0.4039215686" green="0.2274509804" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="u8H-Md-0Uv"/>
+                                            <constraint firstAttribute="width" constant="254" id="w0V-2J-DWK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                        <state key="normal" title="Login / Signup">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="8bL-Ki-tJO" firstAttribute="trailing" secondItem="DL8-qR-WLg" secondAttribute="trailing" id="SB4-FI-N3L"/>
+                                    <constraint firstItem="8bL-Ki-tJO" firstAttribute="leading" secondItem="DL8-qR-WLg" secondAttribute="leading" id="T2x-IW-XlJ"/>
+                                    <constraint firstItem="f8E-6o-7DF" firstAttribute="top" secondItem="8bL-Ki-tJO" secondAttribute="bottom" constant="50" id="Vo8-Ss-G3e"/>
+                                    <constraint firstItem="f8E-6o-7DF" firstAttribute="centerX" secondItem="krW-Zc-3IN" secondAttribute="centerX" id="aVs-Jt-phM"/>
+                                    <constraint firstAttribute="trailing" secondItem="DL8-qR-WLg" secondAttribute="trailing" constant="20" id="ax6-kv-vJZ"/>
+                                    <constraint firstItem="8bL-Ki-tJO" firstAttribute="top" secondItem="DL8-qR-WLg" secondAttribute="bottom" constant="20" id="dRY-mQ-Y1w"/>
+                                    <constraint firstAttribute="height" constant="128" id="glm-oJ-LUt"/>
+                                    <constraint firstItem="DL8-qR-WLg" firstAttribute="top" secondItem="M7p-A8-nkx" secondAttribute="bottom" constant="20" id="htx-9H-6f0"/>
+                                    <constraint firstItem="M7p-A8-nkx" firstAttribute="leading" secondItem="krW-Zc-3IN" secondAttribute="leading" constant="20" id="oNi-PF-BVX"/>
+                                    <constraint firstItem="DL8-qR-WLg" firstAttribute="leading" secondItem="M7p-A8-nkx" secondAttribute="leading" id="sNm-NF-6Yh"/>
+                                    <constraint firstItem="M7p-A8-nkx" firstAttribute="top" secondItem="krW-Zc-3IN" secondAttribute="top" constant="20" id="zG6-V0-fGe"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="glm-oJ-LUt"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.92549019607843142" green="0.93725490196078431" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="krW-Zc-3IN" firstAttribute="top" secondItem="gkK-lM-ccs" secondAttribute="bottom" constant="20" id="2Vj-Nz-tux"/>
+                            <constraint firstItem="krW-Zc-3IN" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2kp-Zt-s1t"/>
                             <constraint firstItem="gkK-lM-ccs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8nS-pZ-zxr"/>
+                            <constraint firstItem="krW-Zc-3IN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9Kg-Sj-2XA"/>
                             <constraint firstItem="oYS-sU-ZoI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ebr-bP-mpq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="krW-Zc-3IN" secondAttribute="bottom" constant="20" id="L35-1H-p3X"/>
                             <constraint firstItem="gkK-lM-ccs" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="SNa-OL-tXb"/>
-                            <constraint firstItem="gkK-lM-ccs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="YEp-4X-acj"/>
                             <constraint firstAttribute="trailing" secondItem="oYS-sU-ZoI" secondAttribute="trailing" id="ck1-Nz-9ge"/>
+                            <constraint firstItem="gkK-lM-ccs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="daq-Qs-LMv"/>
                             <constraint firstItem="oYS-sU-ZoI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gA5-4a-A8q"/>
                         </constraints>
                     </view>

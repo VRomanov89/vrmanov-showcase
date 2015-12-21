@@ -20,6 +20,7 @@
 		6301E0EA1C28850C0062F23E /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301E0E91C28850C0062F23E /* MaterialView.swift */; };
 		6301E0ED1C2885F60062F23E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301E0EC1C2885F60062F23E /* File.swift */; };
 		6301E0EF1C2889490062F23E /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301E0EE1C2889490062F23E /* MaterialButton.swift */; };
+		6301E0F11C2894430062F23E /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301E0F01C2894430062F23E /* MaterialTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		6301E0E91C28850C0062F23E /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		6301E0EC1C2885F60062F23E /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		6301E0EE1C2889490062F23E /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		6301E0F01C2894430062F23E /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				6301E0E91C28850C0062F23E /* MaterialView.swift */,
 				6301E0EE1C2889490062F23E /* MaterialButton.swift */,
+				6301E0F01C2894430062F23E /* MaterialTextField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				6301E0C71C2878E90062F23E /* AppDelegate.swift in Sources */,
 				6301E0CF1C2878E90062F23E /* vrmanov_showcase.xcdatamodeld in Sources */,
 				6301E0EA1C28850C0062F23E /* MaterialView.swift in Sources */,
+				6301E0F11C2894430062F23E /* MaterialTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
