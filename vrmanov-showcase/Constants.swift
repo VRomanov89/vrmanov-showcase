@@ -10,3 +10,7 @@ import Foundation
 import UIKit
 
 let SHADOW_COLOR: CGFloat = 157.0 / 255.0 // 0 = black 1 = white.
+let KEY_UID = "uid"
+
+//Segues
+let SEGUE_LOGGED_IN = "loggedIn"
