@@ -24,7 +24,7 @@
 		6301E0F61C2898CC0062F23E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6301E0F31C2898CC0062F23E /* Bolts.framework */; };
 		6301E0F71C2898CC0062F23E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6301E0F41C2898CC0062F23E /* FBSDKCoreKit.framework */; };
 		6301E0F81C2898CC0062F23E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6301E0F51C2898CC0062F23E /* FBSDKLoginKit.framework */; };
-		6324B3DC1C28B24000AD7F1D /* DataServie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324B3DB1C28B24000AD7F1D /* DataServie.swift */; };
+		6324B3DC1C28B24000AD7F1D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324B3DB1C28B24000AD7F1D /* DataService.swift */; };
 		63779FFC1C2BA2FB00C80A2E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63779FFB1C2BA2FB00C80A2E /* FeedVC.swift */; };
 		63779FFE1C2BA3D800C80A2E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63779FFD1C2BA3D800C80A2E /* PostCell.swift */; };
 		AA23B5B030E746C06E96A4A0 /* Pods_vrmanov_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F700448BF3AB9104CD1F5EEB /* Pods_vrmanov_showcase.framework */; };
@@ -50,7 +50,7 @@
 		6301E0F31C2898CC0062F23E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		6301E0F41C2898CC0062F23E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		6301E0F51C2898CC0062F23E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		6324B3DB1C28B24000AD7F1D /* DataServie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServie.swift; sourceTree = "<group>"; };
+		6324B3DB1C28B24000AD7F1D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		63779FFB1C2BA2FB00C80A2E /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		63779FFD1C2BA3D800C80A2E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		B96904CA7988A7883B537FAE /* Pods-vrmanov-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vrmanov-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-vrmanov-showcase/Pods-vrmanov-showcase.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +102,6 @@
 				6301E0DC1C2878FD0062F23E /* View */,
 				6301E0DB1C2878F60062F23E /* Controller */,
 				6301E0C61C2878E90062F23E /* AppDelegate.swift */,
-				6301E0C81C2878E90062F23E /* ViewController.swift */,
 				6301E0CA1C2878E90062F23E /* Main.storyboard */,
 				6301E0D01C2878E90062F23E /* Assets.xcassets */,
 				6301E0D21C2878E90062F23E /* LaunchScreen.storyboard */,
@@ -116,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				63779FFB1C2BA2FB00C80A2E /* FeedVC.swift */,
+				6301E0C81C2878E90062F23E /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 		6324B3DA1C28B22900AD7F1D /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				6324B3DB1C28B24000AD7F1D /* DataServie.swift */,
+				6324B3DB1C28B24000AD7F1D /* DataService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -323,7 +323,7 @@
 				6301E0ED1C2885F60062F23E /* Constants.swift in Sources */,
 				6301E0C91C2878E90062F23E /* ViewController.swift in Sources */,
 				6301E0EF1C2889490062F23E /* MaterialButton.swift in Sources */,
-				6324B3DC1C28B24000AD7F1D /* DataServie.swift in Sources */,
+				6324B3DC1C28B24000AD7F1D /* DataService.swift in Sources */,
 				6301E0C71C2878E90062F23E /* AppDelegate.swift in Sources */,
 				6301E0CF1C2878E90062F23E /* vrmanov_showcase.xcdatamodeld in Sources */,
 				6301E0EA1C28850C0062F23E /* MaterialView.swift in Sources */,

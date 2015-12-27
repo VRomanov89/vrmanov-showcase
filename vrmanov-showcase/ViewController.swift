@@ -38,6 +38,9 @@ class ViewController: UIViewController {
                         print("Login Failed!. \(error)")
                     }else{
                         print("Logged In! \(authData)")
+                        // Following may need an if let for error handling.
+                        let user = ["provider": authData.provider!]
+                        DataService.ds.createFirebaseUser(authData.uid, user: user)
                         NSUserDefaults.standardUserDefaults().setValue(authData.uid, forKey: KEY_UID)
                         self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
                     }
