@@ -27,6 +27,7 @@
 		6324B3DC1C28B24000AD7F1D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324B3DB1C28B24000AD7F1D /* DataService.swift */; };
 		63779FFC1C2BA2FB00C80A2E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63779FFB1C2BA2FB00C80A2E /* FeedVC.swift */; };
 		63779FFE1C2BA3D800C80A2E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63779FFD1C2BA3D800C80A2E /* PostCell.swift */; };
+		6377A0001C2F950F00C80A2E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63779FFF1C2F950F00C80A2E /* Post.swift */; };
 		AA23B5B030E746C06E96A4A0 /* Pods_vrmanov_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F700448BF3AB9104CD1F5EEB /* Pods_vrmanov_showcase.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		6324B3DB1C28B24000AD7F1D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		63779FFB1C2BA2FB00C80A2E /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		63779FFD1C2BA3D800C80A2E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		63779FFF1C2F950F00C80A2E /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B96904CA7988A7883B537FAE /* Pods-vrmanov-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vrmanov-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-vrmanov-showcase/Pods-vrmanov-showcase.release.xcconfig"; sourceTree = "<group>"; };
 		D5A3E9E5F25B4D119D7D68FC /* Pods-vrmanov-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vrmanov-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vrmanov-showcase/Pods-vrmanov-showcase.debug.xcconfig"; sourceTree = "<group>"; };
 		F700448BF3AB9104CD1F5EEB /* Pods_vrmanov_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vrmanov_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +136,7 @@
 		6301E0DD1C2879030062F23E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				63779FFF1C2F950F00C80A2E /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63779FFC1C2BA2FB00C80A2E /* FeedVC.swift in Sources */,
+				6377A0001C2F950F00C80A2E /* Post.swift in Sources */,
 				6301E0ED1C2885F60062F23E /* Constants.swift in Sources */,
 				6301E0C91C2878E90062F23E /* ViewController.swift in Sources */,
 				6301E0EF1C2889490062F23E /* MaterialButton.swift in Sources */,
